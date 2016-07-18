@@ -22,7 +22,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
-
+    Document doc;
+    String url;
+    String imageURL;
 
     /**
      * ATTENTION Внимание: Специально не использовался адаптер, чтобы изображения и пункты списка дбавлялись сразу же как только загружалось изобрежение
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void getImages(View view) {
         EditText dt = (EditText) findViewById(R.id.editText);
+        final Button btn = (Button) findViewById(R.id.btnSearchForImages);
 
         Toast.makeText(this, "Gathering has been started", Toast.LENGTH_SHORT).show();
         url = String.valueOf(dt.getText());

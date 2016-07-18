@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImagesRetrieveInOneThread</string>
+    <string name="imageview">imageView</string>
+</resources>

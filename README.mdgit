@@ -1,0 +1,2 @@
+"# imageGetter"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/e37/imageGetter.gitgit push -u origin master
+"# imageGetter"  initgit add README.mdgit commit -m "first commit"git remote add origin https://github.com/e37/imageGetter.gitgit push -u origin master
